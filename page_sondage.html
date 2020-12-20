@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head> 
+		<title>Léo Pellegrin</title> 
+		<meta charset="utf-8">
+		<meta name="description" content="PageActivites">
+		<meta name="keywords" content="Léo Pellegrin, sondage">
+		
+		<link rel="stylesheet" href="css/style1.css"/>
+		<link rel="icon" href="Photo/logo_site.ico" />
+		
+		<script src="https://kit.fontawesome.com/b18ab37082.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/style1.css" id="themeCSSLink">  
+		<script src="js/theme.js" defer></script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+	</head>
+	<body>
+		<header class="Entete">
+			<h1 id="MainTitle"><a id="lienpage" href="index.html"> Site de Léo Pellegrin </a></h1>
+			<nav class="menu" role='navigation'>
+				<ol>
+					<li class="menu-item" aria-haspopup="true">
+						<a id="lienmenu" href="#0">Informations Personelles</a>
+						<ol class="sub-menu" aria-label="submenu">
+							<li class="menu-item"><a id="lienmenu" href="page_voyage.html">Voyages</a></li>
+							<li class="menu-item"><a id="lienmenu" href="page_activites.html">Activités Extra-Scolaires</a></li>
+						</ol>
+					</li>
+					<li class="menu-item"><a id="lienmenu" href="page_téléchargement.html">Téléchargement de mes Projets</a></li>
+					<li class="menu-item"><a id="lienmenu" href="#0">Sondage de satisfaction</a></li>
+				</ol>
+			</nav>
+			<img id="logo" src="Photo/logo_site2.png" alt="Logo Site">
+			
+			<button id="changeThemeBtn">
+				Dark Mode
+				<i id="changeThemeIcon"></i>
+			</button>
+			
+			<h2 id="MainTitle"> Sondage de satisfaction </h2>
+			</header>
+		<section id="Corps">
+			<form id="form" action="mailto:leopellegrin87@gmail.com" method="post" enctype="text/plain">
+				<p class="CorpsSondage">
+					<label id="TitleSondage" for="Prénom">Prénom</label><input id="RéponseSondage" type="text" name="prenom" value=" ">
+					<label id="TitleSondage" for="Nom">Nom</label><input id="RéponseSondage" type="text" name="nom" value=" "><br>
+					<p id="TitleSondage"> Homme </p>
+					<input id="CorpsArticle" type="radio" name="sexe" value="homme"><label for="SexeHomme"></label> 
+					<p id="TitleSondage"> Femme </p>
+					<input id="CorpsArticle" type="radio" name="sexe" value="femme"><label for="SexeFemme"></label><br>
+					<p id="TitleSondage"> Dîtes moi ce que vous pensez de mon site (N'hésitez pas à dire ce que je dois améliorer !)</p>
+					<textarea id="ZoneTexteSondage" name="Impression" rows="10" cols="80"></textarea><br>
+					<input id="button" type="submit" value="Envoyer">
+				</p>
+			</form>
+		</section>
+		<footer id="footer">
+			<a href="mailto:leo.pellegrin87@gmail.com"><p class="TexteFoot"> Contactez moi par mail !</p></a>
+			<a href="mailto:"><p class="TexteFoot"> Partagez la page ! </p></a>
+			<a href="tel:+33781794004"><p class="TexteFoot"> Contactez moi par téléphone ! </p></a>
+		</footer> 
+	</body> 
